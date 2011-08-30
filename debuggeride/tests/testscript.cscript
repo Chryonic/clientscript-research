@@ -1,0 +1,51 @@
+
+include "std/strUtils.cscript"
+definition int methodTest(int asdf,int asdf2,boolean sdf) cs2 500
+definition void println(string line) opcode 500
+
+
+boolean clientscript1337(string str,int a, int b, int c,boolean d,boolean e,char s) {
+	boolean x = true;
+	x = false;
+	int ss = 'c';
+
+	while (x) {
+		//println("lulz");
+		continue;
+		//println("lulz");
+	}
+	
+	if (methodTest(10,a,e > d) == 1) {
+		return true;
+	}
+	
+	while (false) {
+	
+	}
+	
+	if (d) {
+		return true;
+	}
+	else {
+		return false;
+	}
+	return x = d = e = false;
+}
+
+
+
+/*
+
+unsafe void method(const int intarg,string someStr,char someChar) opcode 20;
+unsafe string method(const int intarg,string someStr,char someChar) opcode SOME_NAMED_OPC;
+
+assemblymacro string someMacro {
+	PUSHINT 1 // [i]
+	PUSHSTRING asdf // [i,s]
+	1337 // not named opcode [s]
+	SOME_NAMED_OPCODE // [s,s]
+	POPSTRING // [s]
+	RETURN // []
+}
+
+*/
